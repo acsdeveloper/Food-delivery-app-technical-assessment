@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     text-align: center;
     margin: 20px 0px;
     overflow: scroll;
@@ -29,15 +29,16 @@
 }
 
 .explore-menu-list-item img{
-    width: 7.5vw;
+    width: 8.7vw;
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;
     transition: 0.3s ease;
+    padding: 10px;
 }
 
 .explore-menu-list-item img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .explore-menu-list-item p{
